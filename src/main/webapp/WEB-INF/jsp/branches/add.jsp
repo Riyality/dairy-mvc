@@ -1,73 +1,51 @@
 
 <jsp:include page="../modules/header.jsp" />
 <style>
-.spti-textarea-height {
-	height: 100px;
-	outline: none;
-	border: 1px solid lightgray;
-	border-radius: 4px;
-	padding: 0px !important;
-	font-size: 13px;
-	padding: 3px;
-}
+
 </style>
 <body>
 
-	<div class="main-content app-content">
-
+	<div class="main-content app-content p-4">
 
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col">
+				<div class="col-10 m-auto">
 					<div class="card custom-card">
-						<div class="card-header justify-content-between">
+						<div class="card-header justify-content-between dairy-card-header">
 							<div class="card-title">Add Branch</div>
 						</div>
-						<div class="card-body">
+						<div class="card-body dairy-card-body">
 							<form class="row g-3 needs-validation" action="/branches"
 								method="post" novalidate>
-								<div class="col-md-12">
-									<label for="validationCustom01" class="form-label">Name</label>
-									<input type="text" class="form-control" id="validationCustom01"
-										name="name" required>
-									<div class="valid-feedback">Looks good!</div>
-								</div>
+								
 								<div class="col-md-6">
-									<label for="validationCustom02" class="form-label">Owner
-										Name</label> <input type="text" class="form-control"
-										id="validationCustom02" name="owner" required>
-									<div class="valid-feedback">Looks good!</div>
+									<label class="form-label dairy-input-label">Name</label>
+									<input type="text" class="form-control dairy-form-input" placeholder="Enter Branch Name" id="" name="name">
 								</div>
+								
 								<div class="col-md-6">
-									<label for="validationCustomUsername" class="form-label">Owner
-										Contact</label>
+									<label class="form-label dairy-input-label">Owner Name</label> 
+									<input type="text" class="form-control dairy-form-input" placeholder="Enter Owner Name" id="" name="owner" required>
+								</div>
+								
+								<div class="col-md-6">
+									<label class="form-label dairy-input-label">Owner Contact</label>
 									<div class="input-group has-validation">
-										<span class="input-group-text" id="inputGroupPrepend">+91</span>
-										<input type="text" class="form-control"
-											id="validationCustomUsername"
-											aria-describedby="inputGroupPrepend" name="ownerContact"
-											required>
-										<div class="invalid-feedback">Please choose a username.
-										</div>
+										<span class="input-group-text" id="">+91</span>
+										<input type="text" class="form-control dairy-form-input" placeholder="Enter Mobile No." id="" aria-describedby="inputGroupPrepend" name="ownerContact" required>
 									</div>
 								</div>
-								<div class="col-md-12">
-									<label for="validationCustom03" class="form-label">Start
-										Date</label> <input type="datetime-local" class="form-control"
-										id="validationCustom03" required name="startDate">
-									<div class="invalid-feedback">Please provide a valid
-										city.</div>
+								
+								<div class="col-md-6">
+									<label class="form-label dairy-input-label">Start Date</label> 
+									<input type="datetime-local" class="form-control dairy-form-input" id="" name="startDate">
 								</div>
-								<div class="col-md-12">
-									<label for="validationCustom05" class="form-label">Address</label>
-									<textarea class="col-md-12 spti-textarea-height" name="address"
-										placeholder="eg.Hadpsar, pune"></textarea>
-									<div class="invalid-feedback">Please provide a valid zip.
-									</div>
+								<div class="col-md-6">
+									<label class="form-label dairy-input-label">Address</label>
+									<textarea class="col-md-12 dairy-textarea" name="address" placeholder="Enter Address Here"></textarea> 
 								</div>
 								<div class="col-12">
-									<button class="btn btn-primary" type="submit">Submit
-										form</button>
+									<button class="btn btn-primary dairy-form-btn" type="submit">Submit </button>
 								</div>
 							</form>
 						</div>
