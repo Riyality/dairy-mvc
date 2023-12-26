@@ -32,7 +32,7 @@
 <link rel="stylesheet" href="<c:url value="/resources/assets/app-fce3f544.css"/>" />
 
 <!-- NODE WAVES CSS -->
-<link href"<c:url value="/resources/assets/ts/libs/node-waves/waves.min.css"/>" rel="stylesheet">
+<link href = "<c:url value="/resources/assets/ts/libs/node-waves/waves.min.css"/>" rel="stylesheet">
 
 <!-- SIMPLEBAR CSS -->
 <link rel="stylesheet" href="<c:url value="/resources/assets/libs/simplebar/simplebar.min.css"/>">
@@ -49,6 +49,8 @@
 
 <!-- MAIN JS -->
 <script src="<c:url value="/resources/assets/main.js"/>"></script>
+
+<link rel="stylesheet" href="<c:url value="/resources/assets/css/custom.css"/>" />
 
 </head>
 
@@ -318,8 +320,8 @@
             <!-- Start::main-sidebar-header -->
             <div class="main-sidebar-header">
                 <a href="index.html" class="header-logo">
-                    <img src="<c:url value="/resources/assets/images/brand-logos/logo.png"/>" alt="logo" class="desktop-dark" style="height:6em">
-                    <img src="<c:url value="/resources/assets/images/brand-logos/logo.png"/>" alt="logo" class="toggle-dark" style="height: 100px">
+                    <img src="<c:url value="/resources/assets/images/brand-logos/logo.png"/>" alt="logo" class="desktop-logo" style="height:6em">
+                    <img src="<c:url value="/resources/assets/images/brand-logos/logo.png"/>" alt="logo" class="toggle-logo" style="height: 40px">
                 </a>
             </div>
             <!-- End::main-sidebar-header -->
@@ -353,7 +355,8 @@
                         <li class="slide__category"><span class="category-name">Pages</span></li>
                         <!-- End::slide__category -->
 
-                        <!-- Start::slide -->
+                        <!-- Start Branch slide -->
+                        
                         <li class="slide has-sub">
                             <a href="javascript:void(0);" class="side-menu__item">
                                 <i class="bx bx-file-blank side-menu__icon"></i>
@@ -373,7 +376,99 @@
                                 
                             </ul>
                         </li>
-                        <!-- End::slide -->
+                        <!-- End Branch slide -->
+                        
+                        <!-- Start Equipment slide -->
+                        
+                        <li class="slide has-sub">
+                            <a href="javascript:void(0);" class="side-menu__item">
+                                <i class="bx bx-file-blank side-menu__icon"></i>
+                                <span class="side-menu__label">Equipments</span>
+                                <i class="fe fe-chevron-right side-menu__angle"></i>
+                            </a>
+                            <ul class="slide-menu child1">
+                                <li class="slide side-menu__label1">
+                                    <a href="javascript:void(0);">Equipments</a>
+                                </li>
+                                <li class="slide">
+                                    <a href="/equipments/add-equipment-page" class="side-menu__item">Add Equipments</a>
+                                </li>
+                                 <li class="slide">
+                                    <a href="/equipments" class="side-menu__item">All Equipments</a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <!-- End Equipment slide -->
+                        
+                        <!-- Start Feed Company slide -->
+                                           
+                        <li class="slide has-sub">
+                            <a href="javascript:void(0);" class="side-menu__item">
+                                <i class="bx bx-file-blank side-menu__icon"></i>
+                                <span class="side-menu__label">Feed Company</span>
+                                <i class="fe fe-chevron-right side-menu__angle"></i>
+                            </a>
+                            <ul class="slide-menu child1">
+                                <li class="slide side-menu__label1">
+                                    <a href="javascript:void(0);">Feed Company</a>
+                                </li>
+                                <li class="slide">
+                                    <a href="/branches/add-branch-page" class="side-menu__item">Add Feed Company</a>
+                                </li>
+                                 <li class="slide">
+                                    <a href="/branches" class="side-menu__item">All Feed Companies</a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <!-- End Feed Company slide -->
+
+                        <!-- Start Feed Type slide -->
+                        
+                        <li class="slide has-sub">
+                            <a href="javascript:void(0);" class="side-menu__item">
+                                <i class="bx bx-file-blank side-menu__icon"></i>
+                                <span class="side-menu__label">Feed Type </span>
+                                <i class="fe fe-chevron-right side-menu__angle"></i>
+                            </a>
+                            <ul class="slide-menu child1">
+                                <li class="slide side-menu__label1">
+                                    <a href="javascript:void(0);">Feed Type </a>
+                                </li>
+                                <li class="slide">
+                                    <a href="/branches/add-branch-page" class="side-menu__item">Add Feed Type </a>
+                                </li>
+                                 <li class="slide">
+                                    <a href="/branches" class="side-menu__item">All Feed Types</a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <!-- End  Feed Type slide -->
+
+                        <!-- Start Feed Type slide -->
+                        
+                        <li class="slide has-sub">
+                            <a href="javascript:void(0);" class="side-menu__item">
+                                <i class="bx bx-file-blank side-menu__icon"></i>
+                                <span class="side-menu__label">Employee </span>
+                                <i class="fe fe-chevron-right side-menu__angle"></i>
+                            </a>
+                            <ul class="slide-menu child1">
+                                <li class="slide side-menu__label1">
+                                    <a href="javascript:void(0);">Employee </a>
+                                </li>
+                                <li class="slide">
+                                    <a href="/branches/add-branch-page" class="side-menu__item">Add Employee </a>
+                                </li>
+                                 <li class="slide">
+                                    <a href="/branches" class="side-menu__item">All Employee</a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <!-- End  Feed Type slide -->
                         
                     </ul>
                     <div class="slide-right" id="slide-right">
