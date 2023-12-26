@@ -1,0 +1,25 @@
+.main-content {
+	background: #f6f6f6;
+}
+
+.main-sidebar-header, .app-sidebar, .app-header {
+	background: #001d4e !important;
+}
+
+.side-menu__label, .side-menu__item, .side-menu__icon, .category-name,
+	.side-menu__angle, .category-name, .header-link-icon {
+	color: #fff !important;
+}
+
+.dairy-form-input, .dairy-textarea, .input-group-text {
+	border-color: #000 !important;
+	border-radius: 0px !important;
+}
+
+.dairy-card-header {
+	border-bottom: 1px solid #ccc !important;
+}
+
+.custom-card{
+	box-shadow: 0 0 16px 2px #ccc !important;
+}
