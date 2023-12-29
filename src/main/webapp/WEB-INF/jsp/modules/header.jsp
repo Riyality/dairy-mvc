@@ -460,10 +460,10 @@
                                     <a href="javascript:void(0);">Employee </a>
                                 </li>
                                 <li class="slide">
-                                    <a href="/branches/add-branch-page" class="side-menu__item">Add Employee </a>
+                                    <a href="/employee/add-employee-page" class="side-menu__item">Add Employee </a>
                                 </li>
                                  <li class="slide">
-                                    <a href="/branches" class="side-menu__item">All Employee</a>
+                                    <a href="/employee" class="side-menu__item">All Employee</a>
                                 </li>
                                 
                             </ul>

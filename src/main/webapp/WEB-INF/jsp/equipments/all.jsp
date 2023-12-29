@@ -29,15 +29,15 @@
 		              </thead>
 		              <tbody>
 		              
-		                <c:forEach items="${branches}" var="branch">
+		                <c:forEach items="${equipments}" var="equipment">
                           <tr class="gridjs-tr">
-                            <td>${branch.name}</td>
-                            <td>${branch.owner}</td>
-                            <td>${branch.ownerContact}</td>
-                            <td>${branch.startDate}</td>
-                            <td>${branch.address}</td>
+                            <td>${equipment.name}</td>
+                            <td>${equipment.dateOfPurchase}</td>
+                            <td>${equipment.quantity}</td>
+                            <td>${equipment.price}</td>
+                            <td>${equipment.totalAmount}</td>
                             <td>
-                              <a href="http://localhost:6161/branches/${branch.id }">
+                              <a href="http://localhost:6161/equipments/${equipment.id }">
                                 <i class="ti ti-color-picker" style="font-size: 14px"></i>
                               </a>
                             </td>
