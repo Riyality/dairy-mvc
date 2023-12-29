@@ -9,7 +9,7 @@
 		  <div class="col-11 mx-auto mt-4">
 		    <div class="card custom-card">
 		      <div class="card-header dairy-card-header">
-		        <div class="card-title">All Farmers</div>
+		        <div class="card-title">All Animal Feed Stock</div>
 		      </div>
 		      <div class="card-body">
 		        <div class="table-responsive">
@@ -19,15 +19,13 @@
 		            <table id="file-export" class="table table-bordered dataTable no-footer dairy-table-border">
 		              <thead>
 		                <tr class="dairy-table-head">
-		                  <th>Farmers Name</th>
-		                  <th>Date of Joining</th>
-		                  <th>Contact</th>
-		                  <th>Route</th>
-		                  <th>Bank</th>
-		                  <th>Branch</th>
-		                  <th>Account No.</th>
-		                  <th>IFSC Code</th>
-		                  <th>Address</th>
+		                  <th>Suppliers Name</th>
+		                  <th>Purchase Date</th>
+		                  <th>Feed Company</th>
+		                  <th>Feed Type</th>
+		                  <th>Feed Cost</th>
+		                  <th>Total Quantity</th>
+		                  <th>Total Amount</th>
 		                  <th>Action</th>
 		                  </tr>
 		              </thead>
@@ -35,15 +33,13 @@
 		              
 		                <c:forEach items="${branches}" var="branch">
                           <tr class="gridjs-tr">
-                            <td>Ram Anuse</td>
+                            <td>Ram</td>
                             <td>23/12/2023</td>
-                            <td>9677867566</td>
-                            <td>Anusemala</td>
-                            <td>Union</td>
-                            <td>Sangola</td>
-                            <td>6456566112500</td>
-                            <td>SDED34445</td>
-                            <td>Anusemala</td>
+                            <td>Hindusthan</td>
+                            <td>Indraneel</td>
+                            <td>1125</td>
+                            <td>100</td>
+                            <td>112500</td>
                             <td>
                               <a href="http://localhost:6161/branches/${branch.id }">
                                 <i class="ti ti-color-picker" style="font-size: 14px"></i>
