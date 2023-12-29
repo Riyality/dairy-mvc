@@ -27,25 +27,27 @@
 		                  <th>Branch</th>
 		                  <th>Account No.</th>
 		                  <th>IFSC Code</th>
+		                  <th>UPI Code</th>
 		                  <th>Address</th>
 		                  <th>Action</th>
 		                  </tr>
 		              </thead>
 		              <tbody>
 		              
-		                <c:forEach items="${branches}" var="branch">
+						<c:forEach items="${employee}" var="employee">
                           <tr class="gridjs-tr">
-                            <td>${branch.name}</td>
-                            <td>${branch.owner}</td>
-                            <td>${branch.owner}</td>
-                            <td>${branch.owner}</td>
-                            <td>${branch.owner}</td>
-                            <td>${branch.owner}</td>
-                            <td>56456456456456645</td>
-                            <td>${branch.owner}</td>
-                            <td>${branch.owner}</td>
+                            <td>${employee.name}</td>
+                            <td>${employee.dateOfJoining}</td>
+                            <td>Employee</td>
+                            <td>${employee.contact}</td>
+                            <td>${employee.bankName}</td>
+                            <td>${employee.bankBranchName}</td>
+                            <td>${employee.accountNumber}</td>
+                            <td>${employee.ifscCode}</td>
+                            <td>${employee.upiId}</td>
+                            <td>${employee.address}</td>
                             <td>
-                              <a href="http://localhost:6161/branches/${branch.id }">
+                              <a href="http://localhost:6161/employee/${employee.id }">
                                 <i class="ti ti-color-picker" style="font-size: 14px"></i>
                               </a>
                             </td>
