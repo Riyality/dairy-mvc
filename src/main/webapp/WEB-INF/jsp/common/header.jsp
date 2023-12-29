@@ -178,7 +178,7 @@
 	<script>
             document.addEventListener( "DOMContentLoaded", function ( event ) {
 
-                const showNavbar = ( toggleId, navId, bodyId, headerId ) => {
+                const showNavbar = ( toggleId, navId, bodyId, headerId )  {
                     const toggle = document.getElementById( toggleId ),
                         nav = document.getElementById( navId ),
                         bodypd = document.getElementById( bodyId ),
@@ -186,7 +186,7 @@
 
                     // Validate that all variables exist
                     if ( toggle && nav && bodypd && headerpd ) {
-                        toggle.addEventListener( 'click', () => {
+                        toggle.addEventListener( 'click', ()  {
                             // show navbar
                             nav.classList.toggle( 'showNavbar' )
                             // change icon
