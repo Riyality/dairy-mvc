@@ -516,28 +516,51 @@
                         </li>
                         <!-- End Feed Stock slide -->
                         
-                        <!-- Start Feed Stock slide -->
+                        <!-- Start Feed to Farmer slide -->
                         
                         <li class="slide has-sub">
                             <a href="javascript:void(0);" class="side-menu__item">
                                 <i class="bx bx-file-blank side-menu__icon"></i>
-                                <span class="side-menu__label">Milk Collection </span>
+                                <span class="side-menu__label">Feed to Farmer </span>
                                 <i class="fe fe-chevron-right side-menu__angle"></i>
                             </a>
                             <ul class="slide-menu child1">
                                 <li class="slide side-menu__label1">
-                                    <a href="javascript:void(0);">Milk Collection </a>
+                                    <a href="javascript:void(0);">Feed to Farmer </a>
                                 </li>
                                 <li class="slide">
-                                    <a href="/branches/add-branch-page" class="side-menu__item">Add Milk Collection </a>
+                                    <a href="/branches/add-branch-page" class="side-menu__item">Add Feed to Farmer </a>
                                 </li>
                                  <li class="slide">
-                                    <a href="/branches" class="side-menu__item">All Milk Collection</a>
+                                    <a href="/branches" class="side-menu__item">All Feed to Farmer</a>
                                 </li>
                                 
                             </ul>
                         </li>
-                        <!-- End Feed Stock slide -->
+                        <!-- End Feed to Farmer slide -->
+                        
+                        <!-- Start Advance to Farmer slide -->
+                        
+                        <li class="slide has-sub">
+                            <a href="javascript:void(0);" class="side-menu__item">
+                                <i class="bx bx-file-blank side-menu__icon"></i>
+                                <span class="side-menu__label">Advance to Farmer </span>
+                                <i class="fe fe-chevron-right side-menu__angle"></i>
+                            </a>
+                            <ul class="slide-menu child1">
+                                <li class="slide side-menu__label1">
+                                    <a href="javascript:void(0);">Advance to Farmer </a>
+                                </li>
+                                <li class="slide">
+                                    <a href="/branches/add-branch-page" class="side-menu__item">Add Advance to Farmer </a>
+                                </li>
+                                 <li class="slide">
+                                    <a href="/branches" class="side-menu__item">All Advance to Farmer</a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <!-- End Advance to Farmer slide -->
                         
                         <!-- Start Farmer slide -->
                         
