@@ -9,7 +9,7 @@
 		  <div class="col-11 mx-auto mt-4">
 		    <div class="card custom-card">
 		      <div class="card-header dairy-card-header">
-		        <div class="card-title">All Feed Companies</div>
+		        <div class="card-title">All Feed Types</div>
 		      </div>
 		      <div class="card-body">
 		        <div class="table-responsive">
@@ -19,18 +19,20 @@
 		            <table id="file-export" class="table table-bordered dataTable no-footer dairy-table-border">
 		              <thead>
 		                <tr class="dairy-table-head">
-		                  <th>Company Name</th>
+		                  <th>Feed Types</th>
+		                  <th>Company Id</th>
 		                  <th>Action</th>
 		                  </tr>
 		              </thead>
 		              <tbody>
 		              
-		                <c:forEach items="${branches}" var="branch">
+		                <c:forEach items="${feedType}" var="feed">
                           <tr class="gridjs-tr">
-                            <td>${branch.name}</td>
+                          <td>${feed.type}</td>
+                            <td>${feed.feedcompanyId }</td> 
                             <td>
-                              <a href="http://localhost:6161/branches/${branch.id }">
-                                <i class="ti ti-color-picker" style="font-size: 14px"></i>
+                              <a href="http://localhost:6161/feedType/${feed.id }">
+                                <em class="ti ti-color-picker" style="font-size: 14px"></em>
                               </a>
                             </td>
                           </tr>

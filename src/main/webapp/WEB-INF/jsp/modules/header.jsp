@@ -414,10 +414,10 @@
                                     <a href="javascript:void(0);">Feed Company</a>
                                 </li>
                                 <li class="slide">
-                                    <a href="/branches/add-branch-page" class="side-menu__item">Add Feed Company</a>
+                                    <a href="/feedcompany/add-feed-company" class="side-menu__item">Add Feed Company</a>
                                 </li>
                                  <li class="slide">
-                                    <a href="/branches" class="side-menu__item">All Feed Companies</a>
+                                    <a href="/feedcompany" class="side-menu__item">All Feed Companies</a>
                                 </li>
                                 
                             </ul>
@@ -437,10 +437,10 @@
                                     <a href="javascript:void(0);">Feed Type </a>
                                 </li>
                                 <li class="slide">
-                                    <a href="/branches/add-branch-page" class="side-menu__item">Add Feed Type </a>
+                                    <a href="/feedType/add-feed-type" class="side-menu__item">Add Feed Type </a>
                                 </li>
                                  <li class="slide">
-                                    <a href="/branches" class="side-menu__item">All Feed Types</a>
+                                    <a href="/feedType" class="side-menu__item">All Feed Types</a>
                                 </li>
                                 
                             </ul>
