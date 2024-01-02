@@ -25,7 +25,7 @@
 										
 
 								 <select  class="form-select dairy-form-input"
-										id="" name="feedCompany">
+										id="" name="feedCompanyId">
 										<option value="" selected="selected" disabled="disabled">Select
 											Feed Company</option>
 										<c:forEach items="${feedCompany}" var="fc">
@@ -38,7 +38,7 @@
 									<label class="form-label dairy-input-label">Feed Feed
 										Type Name</label> <input type="text"
 										class="form-control dairy-form-input"
-										placeholder="Enter Feed Type Name" id="" name="name">
+										placeholder="Enter Feed Type Name" id="" name="type">
 								</div>
 
 								<div class="col-12">

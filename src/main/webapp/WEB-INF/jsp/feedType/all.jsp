@@ -20,19 +20,19 @@
 		              <thead>
 		                <tr class="dairy-table-head">
 		                  <th>Feed Types</th>
-		                  <th>Company Name</th>
+		                  <th>Company Id</th>
 		                  <th>Action</th>
 		                  </tr>
 		              </thead>
 		              <tbody>
 		              
-		                <c:forEach items="${branches}" var="branch">
+		                <c:forEach items="${feedType}" var="feed">
                           <tr class="gridjs-tr">
-                            <td>${branch.name}</td>
-                            <td>${branch.owner}</td>
+                          <td>${feed.type}</td>
+                            <td>${feed.feedcompanyId }</td> 
                             <td>
-                              <a href="http://localhost:6161/branches/${branch.id }">
-                                <i class="ti ti-color-picker" style="font-size: 14px"></i>
+                              <a href="http://localhost:6161/feedType/${feed.id }">
+                                <em class="ti ti-color-picker" style="font-size: 14px"></em>
                               </a>
                             </td>
                           </tr>

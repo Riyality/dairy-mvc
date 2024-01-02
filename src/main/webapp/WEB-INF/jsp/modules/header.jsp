@@ -447,7 +447,7 @@
                         </li>
                         <!-- End  Feed Type slide -->
 
-                        <!-- Start Feed Type slide -->
+                        <!-- Start Employee slide -->
                         
                         <li class="slide has-sub">
                             <a href="javascript:void(0);" class="side-menu__item">
@@ -468,7 +468,99 @@
                                 
                             </ul>
                         </li>
-                        <!-- End  Feed Type slide -->
+                        <!-- End Employee slide -->
+
+                        <!-- Start Supplier slide -->
+                        
+                        <li class="slide has-sub">
+                            <a href="javascript:void(0);" class="side-menu__item">
+                                <i class="bx bx-file-blank side-menu__icon"></i>
+                                <span class="side-menu__label">Supplier </span>
+                                <i class="fe fe-chevron-right side-menu__angle"></i>
+                            </a>
+                            <ul class="slide-menu child1">
+                                <li class="slide side-menu__label1">
+                                    <a href="javascript:void(0);">Supplier </a>
+                                </li>
+                                <li class="slide">
+                                    <a href="/branches/add-branch-page" class="side-menu__item">Add Supplier </a>
+                                </li>
+                                 <li class="slide">
+                                    <a href="/branches" class="side-menu__item">All Supplier</a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <!-- End Supplier slide -->
+                        
+                        <!-- Start Feed Stock slide -->
+                        
+                        <li class="slide has-sub">
+                            <a href="javascript:void(0);" class="side-menu__item">
+                                <i class="bx bx-file-blank side-menu__icon"></i>
+                                <span class="side-menu__label">Feed Stock </span>
+                                <i class="fe fe-chevron-right side-menu__angle"></i>
+                            </a>
+                            <ul class="slide-menu child1">
+                                <li class="slide side-menu__label1">
+                                    <a href="javascript:void(0);">Feed Stock </a>
+                                </li>
+                                <li class="slide">
+                                    <a href="/branches/add-branch-page" class="side-menu__item">Add Feed Stock </a>
+                                </li>
+                                 <li class="slide">
+                                    <a href="/branches" class="side-menu__item">All Feed Stock</a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <!-- End Feed Stock slide -->
+                        
+                        <!-- Start Feed Stock slide -->
+                        
+                        <li class="slide has-sub">
+                            <a href="javascript:void(0);" class="side-menu__item">
+                                <i class="bx bx-file-blank side-menu__icon"></i>
+                                <span class="side-menu__label">Milk Collection </span>
+                                <i class="fe fe-chevron-right side-menu__angle"></i>
+                            </a>
+                            <ul class="slide-menu child1">
+                                <li class="slide side-menu__label1">
+                                    <a href="javascript:void(0);">Milk Collection </a>
+                                </li>
+                                <li class="slide">
+                                    <a href="/branches/add-branch-page" class="side-menu__item">Add Milk Collection </a>
+                                </li>
+                                 <li class="slide">
+                                    <a href="/branches" class="side-menu__item">All Milk Collection</a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <!-- End Feed Stock slide -->
+                        
+                        <!-- Start Farmer slide -->
+                        
+                        <li class="slide has-sub">
+                            <a href="javascript:void(0);" class="side-menu__item">
+                                <i class="bx bx-file-blank side-menu__icon"></i>
+                                <span class="side-menu__label">Farmers </span>
+                                <i class="fe fe-chevron-right side-menu__angle"></i>
+                            </a>
+                            <ul class="slide-menu child1">
+                                <li class="slide side-menu__label1">
+                                    <a href="javascript:void(0);">Farmers </a>
+                                </li>
+                                <li class="slide">
+                                    <a href="/branches/add-branch-page" class="side-menu__item">Add Farmer </a>
+                                </li>
+                                 <li class="slide">
+                                    <a href="/branches" class="side-menu__item">All Farmers</a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <!-- End Farmer slide -->
                         
                     </ul>
                     <div class="slide-right" id="slide-right">
