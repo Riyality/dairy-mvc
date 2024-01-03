@@ -488,7 +488,7 @@
                                     <a href="javascript:void(0);">Supplier </a>
                                 </li>
                                 <li class="slide">
-                                    <a href="/branches/add-supplier-page" class="side-menu__item">Add Supplier </a>
+                                    <a href="/supplier/add-supplier-page" class="side-menu__item">Add Supplier </a>
                                 </li>
                                  <li class="slide">
                                     <a href="/suppliers" class="side-menu__item">All Supplier</a>
