@@ -19,7 +19,7 @@
 								
 								<div class="col-md-6">
 									<label class="form-label dairy-input-label">Equipment Name</label>
-									<input type="text" class="form-control dairy-form-input" placeholder="Enter Equipment Name" id="" name="name">
+									<input type="text" class="form-control dairy-form-input" placeholder="Enter Equipment Name" id="equipmentName" name="name">
 								</div>
 								
 								<div class="col-md-6">
@@ -29,17 +29,17 @@
 								
 								<div class="col-md-6">
 									<label class="form-label dairy-input-label">Quantity</label> 
-									<input type="text" class="form-control dairy-form-input" placeholder="Enter Quantity"  id="quantity" name="quantity" required>
+									<input type="text" class="form-control dairy-form-input" placeholder="Enter Quantity"  id="equipmentQuantity" name="quantity" required>
 								</div>
 								
 								<div class="col-md-6">
 									<label class="form-label dairy-input-label">Price</label> 
-									<input type="text" class="form-control dairy-form-input" placeholder="Enter Price per Unit"  id="price" name="price" required>
+									<input type="text" class="form-control dairy-form-input" placeholder="Enter Price per Unit"  id="equipmentPrice" name="price" required>
 								</div>
 								
 								<div class="col-md-6">
 									<label class="form-label dairy-input-label">Total Amount</label> 
-									<input type="text" class="form-control dairy-form-input" placeholder="Total Amount"  id="totalAmount" name="totalAmount" required>
+									<input type="text" class="form-control dairy-form-input" placeholder="Total Amount"  id="equipmentTotalAmount" name="totalAmount" required>
 								</div>
 								
 								<div class="col-12">
@@ -56,25 +56,5 @@
 			</div>
 		</div>
 	</div>
-	
-	
-	<script>
-       
-        document.addEventListener("DOMContentLoaded", function () {
-            var quantityInput = document.getElementById("quantity");
-            var costInput = document.getElementById("price");
-            var totalAmountInput = document.getElementById("totalAmount");
 
-            quantityInput.addEventListener("blur", calculateTotalAmount);
-            costInput.addEventListener("blur", calculateTotalAmount);
-            function calculateTotalAmount() {
-     
-                var quantity = parseFloat(quantityInput.value) || 0;
-                var price = parseFloat(costInput.value) || 0;
-
-                var totalAmount = quantity * price;
-                totalAmountInput.value = totalAmount.toFixed(2);
-            }
-        });
-    </script>
 	<jsp:include page="../modules/footer.jsp" />

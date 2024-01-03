@@ -44,11 +44,16 @@
 <!-- CHOICES CSS -->
 <link rel="stylesheet" href="<c:url value="/resources/assets/libs/choices.js/public/assets/styles/choices.min.css"/>">
 
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
 <!-- CHOICES JS -->
 <script src="<c:url value="/resources/assets/libs/choices.js/public/assets/scripts/choices.min.js"/>"></script>
 
 <!-- MAIN JS -->
 <script src="<c:url value="/resources/assets/main.js"/>"></script>
+
+<!-- CUSTOM JS -->
+<script src="<c:url value="/resources/assets/js/custom.js"/>"></script>
 
 <link rel="stylesheet" href="<c:url value="/resources/assets/css/custom.css"/>" />
 
