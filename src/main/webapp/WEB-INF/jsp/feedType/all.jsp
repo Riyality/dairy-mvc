@@ -29,7 +29,7 @@
 		                <c:forEach items="${feedType}" var="feed">
                           <tr class="gridjs-tr">
                           <td>${feed.type}</td>
-                            <td>${feed.feedcompanyId }</td> 
+                            <td>${feed.feedCompanyId }</td> 
                             <td>
                               <a href="http://localhost:6161/feedType/${feed.id }">
                                 <em class="ti ti-color-picker" style="font-size: 14px"></em>

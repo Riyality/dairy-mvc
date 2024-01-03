@@ -12,6 +12,6 @@ import lombok.Setter;
 public class FeedTypeRequestDto {
 	private Long id;
 	private String type;
-	private Long feedCompanyId;
+
 
 }
